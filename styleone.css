@@ -1,0 +1,110 @@
+
+
+    .stylish-block{
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        text-align: center;
+        z-index: 10;
+        position: relative;
+        height: 442px;
+    }
+    .stylish-title{
+        font-size: 36px;
+      font-weight: 400;
+      font-family: "Raleway", sans-serif;
+      padding-top: 80px;
+      margin-bottom: 95px;
+    }
+    .stylish-subtitle{
+        font-size: 18px;
+      font-weight: 400;
+      font-family: "Raleway", sans-serif;
+      margin-bottom: 100px;
+    }
+    .stylish-btn{
+        display: block;
+      max-width: 370px;
+      height: 58px;
+      width: 100%;
+      align-self: center;
+      cursor: pointer;
+      background-color: transparent;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 600;
+      color: #fff;
+      border: 1px solid #fff;
+    }
+    .contact {
+        margin-bottom: 100px;
+    }
+    .contact-block {
+        text-align: center;
+    }
+    .contact-title {
+        font-size: 36px;
+      font-weight: 400;
+      font-family: "Raleway", sans-serif;
+      margin-bottom: 82px;
+      text-transform: uppercase;
+    }
+    .contact-subtitle{
+        margin-bottom: 89px;
+      font-size: 18px;
+      font-weight: 400;
+      font-family: "Raleway", sans-serif;
+      color: #86878b;
+    }
+    .contact-form{display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        position: relative;
+    }
+    .contact-form-wrapper{
+        display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .contact-form-wrapper input {
+        border: none;
+      border-bottom: 1px solid #bdbdbd;
+      outline: none;
+      font-size: 14px;
+      font-weight: 400;
+      font-family: "Open-Sans", sans-serif;
+      max-width: 571px;
+      width: 100%;
+      padding-bottom: 16px;
+    
+    }
+    .contact-form-message{
+        border: none;
+      border-bottom: 1px solid #bdbdbd;
+      width: 100%;
+      max-width: 571px;
+      font-size: 14px;
+      font-weight: 400;
+      font-family: "Open-Sans", sans-serif;
+      height: 197px;
+      outline: none;
+      resize: none;
+      margin-bottom: 50px;
+    }
+    .contact-btn{
+        cursor: pointer;
+        color: #ffffff;
+        background-color: #ec7979;
+        font-size: 18px;
+        font-weight: 600;
+        border: none;
+        max-width: 370px;
+        width: 100%;
+        height: 58px;
+        position: absolute;
+        bottom: -108px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 50px;
+      }
+    
+    
